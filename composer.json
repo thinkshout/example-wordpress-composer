@@ -1,6 +1,6 @@
 {
-  "name": "pantheon-systems/example-wordpress-composer",
-  "description": "",
+  "name": "thinkshout/ts-wordpress-composer",
+  "description": "ThinkShout's project template for WordPress projects with Pantheon + Composer",
   "type": "project",
   "keywords": [],
   "repositories": [
@@ -10,7 +10,7 @@
     },
     {
       "type": "vcs",
-      "url": "https://github.com/pantheon-systems/wordpress-composer"
+      "url": "https://github.com/thinkshout/example-wordpress-composer"
     }
   ],
   "require": {

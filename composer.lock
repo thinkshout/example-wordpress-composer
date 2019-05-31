@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "eee9bea1ef09bf90b62fa55f06b30db6",
+    "content-hash": "1d1326652511e5c8961af1edb064dd4b",
     "packages": [
         {
             "name": "composer/installers",
@@ -225,14 +225,11 @@
                 },
                 "wordpress-install-dir": "web/wp"
             },
+            "notification-url": "https://packagist.org/downloads/",
             "license": [
                 "GPL-2.0+"
             ],
             "description": "WordPress for Pantheon with a composer.json file.",
-            "support": {
-                "source": "https://github.com/pantheon-systems/wordpress-composer/tree/5.2.4",
-                "issues": "https://github.com/pantheon-systems/wordpress-composer/issues"
-            },
             "time": "2019-10-14T22:21:13+00:00"
         },
         {

@@ -14,6 +14,8 @@ web/*
 !web/wp-config.php
 !web/wp-content/
 web/wp-content/*
+!web/wp-content/acf-json/
+!web/wp-content/acf-json/*
 !web/wp-content/mu-plugins/
 web/wp-content/mu-plugins/*
 !web/wp-content/mu-plugins/custom
@@ -21,6 +23,7 @@ web/wp-content/mu-plugins/*
 !web/wp-content/plugins/
 web/wp-content/plugins/*
 !web/wp-content/plugins/custom/
+!web/wp-content/plugins/thinkshout/
 !web/wp-content/plugins/.gitkeep
 !web/wp-content/themes
 web/wp-content/themes/*
@@ -110,3 +113,7 @@ Thumbs.db
 # SASS #
 ##########
 .sass-cache
+
+# IDE #
+##########
+.idea
