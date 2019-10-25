@@ -47,7 +47,7 @@ jobs:
           # Set TERMINUS_ENV and related environment variables.
           # https://github.com/pantheon-systems/docker-build-tools-ci/blob/6.x/scripts/set-environment
           name: setup-environment-vars
-          command: /build-tools-ci/scripts/set-environment
+          command: ./.ci/ts-setup-env.sh
 
       - run:
           name: clone-bash-env
@@ -74,7 +74,7 @@ jobs:
           # Set TERMINUS_ENV and related environment variables.
           # https://github.com/pantheon-systems/docker-build-tools-ci/blob/6.x/scripts/set-environment
           name: setup-environment-vars
-          command: /build-tools-ci/scripts/set-environment
+          command: ./.ci/ts-setup-env.sh
 
       - run:
           name: run static tests
@@ -101,7 +101,7 @@ jobs:
           # Set TERMINUS_ENV and related environment variables.
           # https://github.com/pantheon-systems/docker-build-tools-ci/blob/6.x/scripts/set-environment
           name: setup-environment-vars
-          command: /build-tools-ci/scripts/set-environment
+          command: ./.ci/ts-setup-env.sh
 
       - run:
           name: run PHP build step
@@ -131,7 +131,7 @@ jobs:
           # Set TERMINUS_ENV and related environment variables.
           # https://github.com/pantheon-systems/docker-build-tools-ci/blob/6.x/scripts/set-environment
           name: setup-environment-vars
-          command: /build-tools-ci/scripts/set-environment
+          command: ./.ci/ts-setup-env.sh
 
       # Rsync the build artifact pieces web directory
       - run:
@@ -157,7 +157,7 @@ jobs:
           # Set TERMINUS_ENV and related environment variables.
           # https://github.com/pantheon-systems/docker-build-tools-ci/blob/6.x/scripts/set-environment
           name: setup-environment-vars
-          command: /build-tools-ci/scripts/set-environment
+          command: ./.ci/ts-setup-env.sh
 
       - run:
           name: prepare for Behat testing
@@ -215,7 +215,7 @@ jobs:
           # Set TERMINUS_ENV and related environment variables.
           # https://github.com/pantheon-systems/docker-build-tools-ci/blob/6.x/scripts/set-environment
           name: setup-environment-vars
-          command: /build-tools-ci/scripts/set-environment
+          command: ./.ci/ts-setup-env.sh
 
       - run:
           name: run composer lock updater
